@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Chango&display=swap');
+
 :root{
     --azul-escuro: #054a91ff;
 --azul: #3e7cb1ff;
 --azul-claro: #81a4cdff;
 --azul-bebe: #dbe4eeff;
+--titulo: "Chango", sans-serif;
+--texto: "Averia Sans Libre", sans-serif;
+
 }
 body{
     background: var(--azul-escuro);
+    font-family: var(--texto);
+}
+h1{
+    font-family: var(--titulo);
 }
