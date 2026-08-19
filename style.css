@@ -33,6 +33,18 @@ header{
     text-transform: uppercase;
     font-size: 10px;
 }
+.menu a{
+    text-decoration: none;
+    color: var(--azul-escuro);
+    font-weight: bold;
+}
+.menu a:hover{
+    color: var(--azul);
+    transition: 1s;
+
+}
+
+
 .imag-capa{
     width: 100%;
     height: 10%;
